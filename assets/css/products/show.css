@@ -1,0 +1,41 @@
+form#review-form {
+    margin: 0;
+    width: 100%;
+}
+
+
+div#reviews-and-comments-container {
+    margin-top: 20px;
+}
+    div.review-container {
+
+    }
+        p.review-header, p.comment-header{
+            display: flex;
+            /* width:  */
+        }
+            .reviewee, .commentee {
+                font-weight: bold;
+            }
+            span.review-time {
+                display:inline;
+                 margin-left: auto;
+            }
+        p.review-details {
+            border: 1px solid black;
+            height: 100px;
+        }
+
+    form.form-comments, div.comments-container {
+        width: 80%;
+        margin-left: 20%;
+    }
+    
+    form.form-comments, .comments-container {
+        margin-top: 10px;
+    }
+        .comment-details {
+            height: 100px;
+            border: 1px solid black;
+            padding: 2px;
+        }

@@ -1,0 +1,16 @@
+fieldset {
+    padding: 20px 20px 10px 20px;
+}
+form {
+    width: 300px;
+    display: inline-block;
+    margin-left: 18%;
+}
+    fieldset {
+        display: flex;
+        flex-direction: column;
+    }
+
+div.message{
+    text-align: center;
+}

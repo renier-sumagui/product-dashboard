@@ -1,0 +1,130 @@
+* {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header, header div {
+    display: flex;
+    align-items: baseline;
+}
+
+.color0 {
+    background-color: #CCCCCC;
+}
+
+a {
+    text-decoration: none;
+    color: #2B78E4;
+}
+
+.success {
+    color: #009E0F;
+}
+
+.error {
+    color: rgb(255, 30, 30);
+}
+
+header {
+    justify-content: space-between;
+    padding: 0 2%;
+    border-bottom: 1px solid black;
+}
+    header div {
+        width: 40%;
+    }
+    header div *{
+        margin-right: 5%;
+    }
+
+h1, p {
+    margin: 0;
+}
+
+#title-link-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+p, a, th, td, input, label, textarea, legend {
+    font-size: 14pt;
+}
+
+textarea {
+    resize: none;
+}
+
+main {
+    padding: 1% 5%;
+}
+    #link-blue-background {
+        color: white;
+        border: 1px solid black;
+        background: #2B78E4;
+        box-shadow: 3px 3px 0 0 black;
+        padding: 0 5px;
+    }
+
+    form {
+        width: 21%;
+        margin: 40px 0 10px 0;
+        display: flex;
+        flex-direction: column;
+    }
+    input, textarea {
+        /* width: 100%; */
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+        .green-background, #post {
+            width: -moz-fit-content;
+            width: fit-content;
+            align-self:flex-end;
+            color: white;
+            background-color: #009E0F;
+            border: 1px solid black;
+            box-shadow: 3px 3px 0 0 black;
+            margin-bottom: 10px;
+        }
+        textarea {
+            height: 100px;
+        }
+    input[type="submit"] {
+        cursor: pointer;
+    }
+    input[type="number"] {
+        width: 35px;
+    }
+
+    table {
+        width: 100%;
+        /* text-align: center; */
+    }
+        thead.gray-background {
+            background-color: #CCCCCC;
+        }
+        tbody {
+
+        }
+            tr.color0 {
+                background-color: #EEEEEE;
+            }
+                td {
+                    padding: 5px;
+                }
+                td a {
+                    text-decoration: underline;
+                }
+                .add-remove-item a {
+                    display: inline-block;
+                    width: 49%;
+                    text-align: center;
+                }
+    table {
+        border-collapse: collapse;
+        border: 1px solid black;
+    }
+        th, td {
+            border-right: 1px solid black;
+        }
+    
